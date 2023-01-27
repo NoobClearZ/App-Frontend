@@ -71,12 +71,12 @@ export default function LandingNav() {
                             <div className="nav-menu-right">
                                 <div className="dropdown">
                                     <button className="nav-btn">
-                                        <a href="/">Login</a>
+                                        <a href="/login">Login</a>
                                     </button>
                                 </div>
                                 <div className="dropdown">
                                     <button className="nav-btn">
-                                        <a href="/">Register</a>
+                                        <a href="/register">Register</a>
                                     </button>
                                 </div>
                             </div>
