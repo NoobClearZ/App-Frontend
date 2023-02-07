@@ -129,6 +129,10 @@ li{
     margin-bottom: -20px;
 }
 
+.wide{
+    width: 293px;
+}
+
 .pan{
     text-transform: uppercase;
     font-size: 12px;

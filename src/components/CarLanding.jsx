@@ -11,7 +11,8 @@ export default function CarLanding(){
         showPlayButton: false,
         showFullscreenButton: false,
         showNav: false,
-        slideInterval: 7000
+        slideInterval: 7000,
+        useBrowserFullscreen: false,
 
     }
     const image = [

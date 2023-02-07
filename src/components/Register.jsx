@@ -12,14 +12,22 @@ export default function Register(){
                             <span className='pan'>Register</span>
                         </div>
                         <div className='card-body'>
-                            <p>Daftar Akun Baru</p>
+                            <p className="wide">Daftar Akun Baru</p>
+                            <div className='form-group'>
+                                <label className='form-label'>Nama Lengkap</label>
+                                <input type='text' placeholder='Masukkan Nama Lengkap Anda' className='form-input' name='nama' required/>
+                            </div>
                             <div className='form-group'>
                                 <label className='form-label'>Email</label>
-                                <input type='email' placeholder='Masukkan Alamat Email Anda' className='form-input' name='email'/>
+                                <input type='email' placeholder='Masukkan Alamat Email Anda' className='form-input' name='email' required/>
                             </div>
                             <div className='form-group'>
                                 <label className='form-label'>Password</label>
-                                <input type='password' placeholder='Masukkan Password Anda' className='form-input' name='password'/>
+                                <input type='password' placeholder='Masukkan Password Anda' className='form-input' name='password' required/>
+                            </div>
+                            <div className='form-group'>
+                                <label className='form-label'>Konfirmasi Password</label>
+                                <input type='password' placeholder='Masukkan Password Anda' className='form-input' name='confirmpassword'/>
                             </div>
                         </div>
                         <div className='card-btn'>
